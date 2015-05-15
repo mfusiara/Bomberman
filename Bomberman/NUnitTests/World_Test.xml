@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Width>10</Width>
+  <Height>10</Height>
+  <Player>
+    <Coordinates>
+      <X>0</X>
+      <Y>0</Y>
+    </Coordinates>
+    <Bombs>
+      <BombDTO>
+        <Coordinates>
+          <X>0</X>
+          <Y>0</Y>
+        </Coordinates>
+        <DestructionField>1</DestructionField>
+        <TimeSpan />
+      </BombDTO>
+    </Bombs>
+    <Hitpoints>0</Hitpoints>
+  </Player>
+  <Enemies>
+    <EnemyDTO xsi:type="KangarooDTO">
+      <Coordinates>
+        <X>0</X>
+        <Y>0</Y>
+      </Coordinates>
+      <Hitpoints>0</Hitpoints>
+    </EnemyDTO>
+  </Enemies>
+  <Walls>
+    <WallDTO>
+      <Coordinates>
+        <X>0</X>
+        <Y>0</Y>
+      </Coordinates>
+      <IsDestructible>false</IsDestructible>
+      <Hitpoints>0</Hitpoints>
+    </WallDTO>
+  </Walls>
+  <Bombs />
+  <Key>
+    <Coordinates>
+      <X>0</X>
+      <Y>0</Y>
+    </Coordinates>
+    <Key>1</Key>
+  </Key>
+  <Door>
+    <Coordinates>
+      <X>0</X>
+      <Y>0</Y>
+    </Coordinates>
+    <Key>1</Key>
+  </Door>
+</WorldDTO>
